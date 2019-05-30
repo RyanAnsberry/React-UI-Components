@@ -1,52 +1,51 @@
 /* All styles for your header Components live here */
 .header-container {
     width: 100%;
-    height: 130px;
+    height: 110px;
     display: flex;
-    align-items: center;
 }
 
 .thumbnail-container {
-    width: 20%;
     height: 100%;
+    width: 110px;
+    display: flex;
+    justify-content: center;
 }
 
 .lambda-thumbnail-img {
-    display: none;
-}
-/* Header Title */
-.header-title-container {
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header-title {
-    margin: 0;
-    font-size: 24px;
-}
-
-.handle {
-    font-size: 20px;
-    color: grey;
-}
-
-.timestamp {
-    font-size: 20px;
-    color: grey;
+    width: 60%;
+    height: 60%;
 }
 
 .content-container {
-    height: 100%;
-    width: 670px;
+    width: 690px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+/* Header title */
+.header-title-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-right: 40%;
 }
 
-.header-content {
-    margin: 0;
+.header-title {
+    font-weight: bold
+}
+
+.handle {
+    color: dimgray;
+}
+
+.timestamp {
+    color: dimgray;
+}
+
+/* Header paragraph */
+
+.header-p-container {
+    line-height: 1.2;
     font-size: 20px;
 }
-

@@ -5,13 +5,15 @@ import Content from './HeaderContent';
 import './Header.css';
 
 function HeaderContainer() {
-    return (<div className="header-container">
-        <Thumbnail />
-        <div className="content-container">
-            <Title />
-            <Content />
+    return (
+        <div className="header-container">
+            <Thumbnail />
+            <div className="content-container">
+                <Title />
+                <Content />
+            </div>
         </div>
-    </div>);
+    );
 }
 
 export default HeaderContainer;

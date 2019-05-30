@@ -4,10 +4,14 @@ import CardContent from './CardContent';
 import './Card.css';
 
 function CardContainer() {
-    return (<div className="card-container">
-        <CardBanner />
-        <CardContent />
-    </div>);
+    return (
+        <a className="card-anchor" href="https://www.reactjs.org">
+            <div className="card-container">
+                <CardBanner />
+                <CardContent />
+            </div>
+        </a>
+    );
 }
 
 export default CardContainer;
