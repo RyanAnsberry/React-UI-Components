@@ -6,12 +6,15 @@ button {
     cursor: pointer;
     background: white;
     font-size: 60px;
-
 }
-
 button:hover {
     color: white;
     background: #bbb;
+}
+button:active {
+    border: 3px inset  #bbb;
+    background: #888;
+    color: black;
 }
 
 .action-button {
