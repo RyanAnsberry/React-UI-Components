@@ -1,0 +1,32 @@
+.calculator-container {
+    width: 460px;
+    height: 620px;
+    margin: auto;
+}
+
+.button-container {
+    width: 460px;
+    height: 500px;
+    display: flex;
+}
+
+.input-buttons {
+    width: 345px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.number-buttons {
+    width: 345px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operators-buttons {
+    width: 115px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
